@@ -17,7 +17,7 @@ Find the list of testnet feeds on the [Contract Addresses](/data-feeds/nft-floor
 
 ## Using NFT Floor Price Feeds
 
-Read answers from NFT Floor Price Feeds the same way that you read other Data Feeds. Specify the [NFT Floor Price Feed Address](/data-feeds/nft-floor-price/addresses/) that you want to read instead of specifying a Price Feed address. See the [Using Data Feeds](/data-feeds/use-data-feeds/) page to learn more.
+Read answers from NFT Floor Price Feeds the same way that you read other Data Feeds. Specify the [NFT Floor Price Feed Address](/data-feeds/nft-floor-price/addresses/) that you want to read instead of specifying a Price Feed address. See the [Using Data Feeds](/data-feeds/using-data-feeds/) page to learn more.
 
 Using Solidity, your smart contract should reference [`AggregatorV3Interface`](https://github.com/smartcontractkit/chainlink/blob/master/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol), which defines the external functions implemented by Data Feeds.
 

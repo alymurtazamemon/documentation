@@ -7,7 +7,7 @@ permalink: "docs/data-feeds/proof-of-reserve/"
 whatsnext: { "Find contract addresses for Proof of Reserve Feeds": "/data-feeds/proof-of-reserve/addresses/" }
 ---
 
-Chainlink Proof of Reserve Feeds provide the status of the reserves for several assets. You can use these feeds the same way that you read other Data Feeds. Specify the [Proof of Reserve Feed Address](/data-feeds/proof-of-reserve/addresses/) that you want to read instead of specifying a Price Feed address. See the [Using Data Feeds](/data-feeds/use-data-feeds/) page to learn more.
+Chainlink Proof of Reserve Feeds provide the status of the reserves for several assets. You can use these feeds the same way that you read other Data Feeds. Specify the [Proof of Reserve Feed Address](/data-feeds/proof-of-reserve/addresses/) that you want to read instead of specifying a Price Feed address. See the [Using Data Feeds](/data-feeds/using-data-feeds/) page to learn more.
 
 To find a list of available Proof of Reserve Feeds, see the [Proof of Reserve Feed Addresses](/data-feeds/proof-of-reserve/addresses/) page.
 
@@ -48,7 +48,7 @@ Off-chain reserves provide their data using the following methods:
 
 ## Using Proof of Reserve Feeds
 
-Read answers from Proof of Reserve Feeds the same way that you read other Data Feeds. Specify the [Proof of Reserve Feed Address](/data-feeds/proof-of-reserve/addresses/) that you want to read instead of specifying a Price Feed address. See the [Using Data Feeds](/data-feeds/use-data-feeds/) page to learn more.
+Read answers from Proof of Reserve Feeds the same way that you read other Data Feeds. Specify the [Proof of Reserve Feed Address](/data-feeds/proof-of-reserve/addresses/) that you want to read instead of specifying a Price Feed address. See the [Using Data Feeds](/data-feeds/using-data-feeds/) page to learn more.
 
 Using Solidity, your smart contract should reference [`AggregatorV3Interface`](https://github.com/smartcontractkit/chainlink/blob/master/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol), which defines the external functions implemented by Data Feeds.
 
