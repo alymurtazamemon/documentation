@@ -7,7 +7,7 @@ whatsnext:
   {
     "Use data feeds off-chain": "/data-feeds/solana/using-data-feeds-off-chain/",
     "Use data feeds on-chain": "/data-feeds/solana/using-data-feeds-solana/",
-    "See the available data feeds on Solana": "/data-feeds/data-feeds/price-feeds/addresses?network=solana",
+    "See the available data feeds on Solana": "/data-feeds/price-feeds/addresses?network=solana",
   }
 ---
 

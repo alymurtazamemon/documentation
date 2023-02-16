@@ -10,7 +10,7 @@ The code for reading Data Feeds is the same across all EVM-compatible blockchain
 
 ## Examine the sample contract
 
-This example contract obtains the latest price answer from the [BTC / USD feed](data-feeds/price-feeds/addresses#Sepolia%20Testnet) on the Sepolia testnet, but you can modify it to read any of the different [Types of Data Feeds](/data-feeds#types-of-data-feeds).
+This example contract obtains the latest price answer from the [BTC / USD feed](/data-feeds/price-feeds/addresses#Sepolia%20Testnet) on the Sepolia testnet, but you can modify it to read any of the different [Types of Data Feeds](/data-feeds#types-of-data-feeds).
 
 ::solidity-remix[samples/PriceFeeds/PriceConsumerV3.sol]
 
