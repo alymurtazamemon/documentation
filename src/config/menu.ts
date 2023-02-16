@@ -29,11 +29,6 @@ export const MENU: MenuItems = {
       section: "automation",
     },
     {
-      text: "Any API",
-      link: "/any-api/introduction/",
-      section: "anyApi",
-    },
-    {
       text: "Node Operators",
       link: "/chainlink-nodes",
       section: "nodeOperator",

@@ -61,19 +61,21 @@ export const SIDEBAR = {
       section: "Next Steps",
       contents: [
         {
-          title: "Chainlink Architecture",
-          url: "architecture-overview/architecture-overview",
-        },
-        {
           title: "Data Feeds",
           url: "data-feeds/",
         },
-        { title: "Chainlink VRF", url: "vrf/v2/introduction" },
+        {
+          title: "Chainlink VRF",
+          url: "vrf/v2/introduction",
+        },
         {
           title: "Chainlink Automation",
           url: "chainlink-automation/introduction/",
         },
-        { title: "Connect to Public API Data", url: "any-api/introduction" },
+        {
+          title: "Connect to Public API Data",
+          url: "any-api/introduction",
+        },
         {
           title: "Run a Chainlink Node",
           url: "chainlink-nodes/v1/running-a-chainlink-node",
@@ -83,89 +85,67 @@ export const SIDEBAR = {
   ],
   dataFeeds: [
     {
-      section: "PRICE FEEDS",
+      section: "DATA FEEDS",
       contents: [
         {
           title: "Overview",
+          url: "data-feeds",
+        },
+        {
+          title: "Price Feeds",
           url: "data-feeds/price-feeds",
+          children: [
+            {
+              title: "Price Feed Addresses",
+              url: "data-feeds/price-feeds/addresses",
+            },
+          ],
         },
         {
-          title: "Historical Price Data",
-          url: "data-feeds/price-feeds/historical-data",
-        },
-        {
-          title: "Price Feeds API Reference",
-          url: "data-feeds/price-feeds/api-reference",
-        },
-        {
-          title: "Contract Addresses",
-          url: "data-feeds/price-feeds/addresses",
-        },
-      ],
-    },
-    {
-      section: "PROOF OF RESERVE FEEDS",
-      contents: [
-        {
-          title: "Overview",
+          title: "Proof of Reserve Feeds",
           url: "data-feeds/proof-of-reserve",
+          children: [
+            {
+              title: "Proof of Reserve Addresses",
+              url: "data-feeds/proof-of-reserve/addresses",
+            },
+          ],
         },
         {
-          title: "Contract Addresses",
-          url: "data-feeds/proof-of-reserve/addresses",
-        },
-      ],
-    },
-    {
-      section: "NFT FLOOR PRICING FEEDS",
-      contents: [
-        {
-          title: "Overview",
+          title: "NFT Floor Price Feeds",
           url: "data-feeds/nft-floor-price",
+          children: [
+            {
+              title: "NFT Floor Price Addresses",
+              url: "data-feeds/nft-floor-price/addresses",
+            },
+          ],
         },
         {
-          title: "Contract Addresses",
-          url: "data-feeds/nft-floor-price/addresses",
+          title: "Selecting Quality Data Feeds",
+          url: "data-feeds/selecting-data-feeds",
         },
       ],
     },
     {
-      section: "Data Feeds on Solana",
+      section: "Ethereum and EVM Chains",
       contents: [
         {
-          title: "Overview",
-          url: "data-feeds/solana",
+          title: "Using Data Feeds",
+          url: "data-feeds/using-data-feeds",
         },
         {
-          title: "Using Data Feeds Off-Chain",
-          url: "data-feeds/solana/using-data-feeds-off-chain",
+          title: "Code Examples",
+          url: "data-feeds/examples",
         },
         {
-          title: "Using Data Feeds On-Chain",
-          url: "data-feeds/solana/using-data-feeds-solana",
+          title: "Getting Historical Data",
+          url: "data-feeds/historical-data",
         },
         {
-          title: "Data Feed Addresses",
-          url: "data-feeds/price-feeds/addresses?network=solana",
+          title: "Data Feeds API Reference",
+          url: "data-feeds/api-reference",
         },
-      ],
-    },
-    {
-      section: "Data Feeds on StarkNet",
-      contents: [
-        {
-          title: "Using Data Feeds on StarkNet",
-          url: "data-feeds/starknet",
-        },
-        {
-          title: "Data Feed Addresses",
-          url: "data-feeds/price-feeds/addresses?network=starknet",
-        },
-      ],
-    },
-    {
-      section: "TODO - Reorg",
-      contents: [
         {
           title: "L2 Sequencer Uptime Feeds",
           url: "data-feeds/l2-sequencer-feeds",
@@ -184,9 +164,31 @@ export const SIDEBAR = {
             },
           ],
         },
+      ],
+    },
+    {
+      section: "Solana",
+      contents: [
         {
-          title: "Selecting Data Feeds",
-          url: "data-feeds/selecting-data-feeds",
+          title: "Data Feeds on Solana",
+          url: "data-feeds/solana",
+        },
+        {
+          title: "Using Data Feeds Off-Chain",
+          url: "data-feeds/solana/using-data-feeds-off-chain",
+        },
+        {
+          title: "Using Data Feeds On-Chain",
+          url: "data-feeds/solana/using-data-feeds-solana",
+        },
+      ],
+    },
+    {
+      section: "StarkNet",
+      contents: [
+        {
+          title: "Using Data Feeds on StarkNet",
+          url: "data-feeds/starknet",
         },
       ],
     },
@@ -198,7 +200,10 @@ export const SIDEBAR = {
           url: "getting-started/other-tutorials",
         },
         { title: "Acquire testnet LINK", url: "resources/acquire-link" },
-        { title: "Fund Your Contracts", url: "resources/fund-your-contract" },
+        {
+          title: "Fund Your Contracts",
+          url: "resources/fund-your-contract",
+        },
         {
           title: "Install Frameworks",
           url: "resources/create-a-chainlinked-project",
@@ -389,8 +394,14 @@ export const SIDEBAR = {
           title: "Videos and Tutorials",
           url: "getting-started/other-tutorials",
         },
-        { title: "Acquire testnet LINK", url: "resources/acquire-link" },
-        { title: "Fund Your Contracts", url: "resources/fund-your-contract" },
+        {
+          title: "Acquire testnet LINK",
+          url: "resources/acquire-link",
+        },
+        {
+          title: "Fund Your Contracts",
+          url: "resources/fund-your-contract",
+        },
         {
           title: "Install Frameworks",
           url: "resources/create-a-chainlinked-project",
@@ -407,82 +418,14 @@ export const SIDEBAR = {
           title: "Developer Communications",
           url: "resources/developer-communications",
         },
-        { title: "Getting Help", url: "resources/getting-help" },
-        { title: "Hackathon Resources", url: "resources/hackathon-resources" },
         {
-          title: "Contributing to Chainlink",
-          url: "resources/contributing-to-chainlink",
-        },
-      ],
-    },
-  ],
-  anyApi: [
-    {
-      section: "Connect to any API",
-      contents: [
-        { title: "Introduction to Using Any API", url: "any-api/introduction" },
-        {
-          title: "Make a GET Request",
-          url: "any-api/get-request/introduction",
-          children: [
-            {
-              title: "Single Word Response",
-              url: "any-api/get-request/examples/single-word-response",
-            },
-            {
-              title: "Multi-Variable Responses",
-              url: "any-api/get-request/examples/multi-variable-responses",
-            },
-            {
-              title: "Array Response",
-              url: "any-api/get-request/examples/array-response",
-            },
-            {
-              title: "Large Responses",
-              url: "any-api/get-request/examples/large-responses",
-            },
-            {
-              title: "Existing Job Request",
-              url: "any-api/get-request/examples/existing-job-request",
-            },
-          ],
-        },
-        { title: "Find Existing Jobs", url: "any-api/find-oracle" },
-        { title: "Testnet Oracles", url: "any-api/testnet-oracles" },
-        {
-          title: "Data Provider Nodes",
-          url: "any-api/data-providers/introduction",
-        },
-        { title: "API Reference", url: "any-api/api-reference" },
-      ],
-    },
-    {
-      section: "Resources",
-      contents: [
-        {
-          title: "Videos and Tutorials",
-          url: "getting-started/other-tutorials",
-        },
-        { title: "Acquire testnet LINK", url: "resources/acquire-link" },
-        { title: "Fund Your Contracts", url: "resources/fund-your-contract" },
-        {
-          title: "Install Frameworks",
-          url: "resources/create-a-chainlinked-project",
+          title: "Getting Help",
+          url: "resources/getting-help",
         },
         {
-          title: "LINK Token Contracts",
-          url: "resources/link-token-contracts",
+          title: "Hackathon Resources",
+          url: "resources/hackathon-resources",
         },
-        {
-          title: "Bridges and Associated Risks",
-          url: "resources/bridge-risks",
-        },
-        {
-          title: "Developer Communications",
-          url: "resources/developer-communications",
-        },
-        { title: "Getting Help", url: "resources/getting-help" },
-        { title: "Hackathon Resources", url: "resources/hackathon-resources" },
         {
           title: "Contributing to Chainlink",
           url: "resources/contributing-to-chainlink",
@@ -494,7 +437,10 @@ export const SIDEBAR = {
     {
       section: "NODE OPERATORS",
       contents: [
-        { title: "Release Notes", url: "chainlink-nodes/node-versions" },
+        {
+          title: "Release Notes",
+          url: "chainlink-nodes/node-versions",
+        },
         {
           title: "v1.x.x",
           url: "chainlink-nodes/v1/",
@@ -551,6 +497,57 @@ export const SIDEBAR = {
             },
             { title: "Miscellaneous", url: "chainlink-nodes/resources/miscellaneous" },
           ],
+        },
+      ],
+    },
+    {
+      section: "CONNECTING TO APIs",
+      contents: [
+        {
+          title: "Introduction",
+          url: "any-api/introduction",
+        },
+        {
+          title: "Make a GET Request",
+          url: "any-api/get-request/introduction",
+          children: [
+            {
+              title: "Single Word Response",
+              url: "any-api/get-request/examples/single-word-response",
+            },
+            {
+              title: "Multi-Variable Responses",
+              url: "any-api/get-request/examples/multi-variable-responses",
+            },
+            {
+              title: "Array Response",
+              url: "any-api/get-request/examples/array-response",
+            },
+            {
+              title: "Large Responses",
+              url: "any-api/get-request/examples/large-responses",
+            },
+            {
+              title: "Existing Job Request",
+              url: "any-api/get-request/examples/existing-job-request",
+            },
+          ],
+        },
+        {
+          title: "Find Existing Jobs",
+          url: "any-api/find-oracle",
+        },
+        {
+          title: "Testnet Oracles",
+          url: "any-api/testnet-oracles",
+        },
+        {
+          title: "Data Provider Nodes",
+          url: "any-api/data-providers/introduction",
+        },
+        {
+          title: "API Reference",
+          url: "any-api/api-reference",
         },
       ],
     },
