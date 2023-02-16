@@ -1,6 +1,6 @@
 ---
-layout: ../../../layouts/MainLayout.astro
-section: anyApi
+layout: ../../layouts/MainLayout.astro
+section: nodeOperator
 date: Last Modified
 title: "Find Existing Jobs"
 permalink: "docs/any-api/find-oracle/"

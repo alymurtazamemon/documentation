@@ -1,6 +1,6 @@
 ---
-layout: ../../../layouts/MainLayout.astro
-section: anyApi
+layout: ../../layouts/MainLayout.astro
+section: nodeOperator
 date: Last Modified
 title: "Chainlink Any API Documentation"
 permalink: "docs/any-api/introduction/"

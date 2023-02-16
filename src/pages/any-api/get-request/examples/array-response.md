@@ -1,6 +1,6 @@
 ---
-layout: ../../../../../layouts/MainLayout.astro
-section: anyApi
+layout: ../../../../layouts/MainLayout.astro
+section: nodeOperator
 date: Last Modified
 title: "Array Response"
 permalink: "docs/any-api/get-request/examples/api-array-response/"
